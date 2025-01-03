@@ -1,0 +1,53 @@
+[gd_scene load_steps=5 format=4 uid="uid://cb264hsgrtr7n"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_nnxxs"]
+resource_name = "Material"
+albedo_color = Color(0.419993, 0.419993, 0.419993, 1)
+roughness = 0.991
+emission_enabled = true
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_prv03"]
+_surfaces = [{
+"aabb": AABB(-0.278656, -0.007276, -0.26502, 0.558894, 0.374935, 0.619913),
+"format": 34896613377,
+"index_count": 54,
+"index_data": PackedByteArray("AwAAAAQAAAACAAEAAgAAAAMAAAAFAAQAAQAGAAAAAgAHAAEAAwAIAAIABAAJAAMAAAAGAAUAAQAHAAYAAgAIAAcAAwAJAAgABAAFAAkABgAKAAUABwAKAAYACAAKAAcACQAKAAgABQAKAAkA"),
+"name": "Material",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 11,
+"vertex_data": PackedByteArray("5eYAABSxAAAgdwAA//8AAAAAAABwbQAAMVgAAAAAAADl5gAAzSkAAP//hJWVZwAAE6dDvoj5AABpGZuZ9sAAAFQ6i6MpLgAA06HBpFoUAABwfv//tnEAAA==")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_po7u6"]
+resource_name = "Small Rock_Small_Rock_Icosphere-Mesh"
+_surfaces = [{
+"aabb": AABB(-0.278656, -0.007276, -0.26502, 0.558894, 0.374935, 0.619913),
+"attribute_data": PackedByteArray("0UWv1///r9dz0a/X6KKv11x0r9fRRa/XXHSv1xZdYK9FF6/X0UWv14suYK9z0a/X//+v17noYK/ooq/Xc9Gv1y26YK9cdK/X6KKv16KLYK/RRa/XFl1gr4suYK9FF6/Xiy5grwAAYK9z0a/Xuehgry26YK/ooq/XLbpgr6KLYK9cdK/XootgrxZdYK+LLmCvFl1gr9FFEYcAAGCviy5gr0UXEYctumCvuehgr3PREYeii2CvLbpgr+iiEYcWXWCvootgr1x0EYc="),
+"format": 34896613399,
+"index_count": 54,
+"index_data": PackedByteArray("AwAAAAQAAAACAAEAAgAAAAMABQAHAAYACAAKAAkACwANAAwADgAQAA8AEQATABIAFAAWABUAFwAZABgAGgAcABsAHQAfAB4AIAAiACEAIwAlACQAJgAoACcAKQArACoALAAuAC0ALwAxADAA"),
+"material": SubResource("StandardMaterial3D_nnxxs"),
+"name": "Material",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 50,
+"vertex_data": PackedByteArray("5eYAABSx/78gdwAA////vwAAAABwbf+/MVgAAAAA/7/l5gAAzSn/v+XmAAAUsZvA5eYAAM0pm8D//4SVlWebwCB3AAD//w+c5eYAABSxD5wTp0O+iPkPnAAAAABwbT+oIHcAAP//P6hpGZuZ9sA/qDFYAAAAAJzZAAAAAHBtnNlUOoujKS6c2eXmAADNKTLzMVgAAAAAMvPTocGkWhQy8+XmAAAUsb+s//+ElZVnv6wTp0O+iPm/rCB3AAD//6iUE6dDvoj5qJRpGZuZ9sColAAAAABwbQ/JaRmbmfbAD8lUOoujKS4PyTFYAAAAAB/1VDqLoykuH/XTocGkWhQf9eXmAADNKVHg06HBpFoUUeD//4SVlWdR4BOnQ76I+Wa+//+ElZVnZr5wfv//tnFmvmkZm5n2wOyxE6dDvoj57LFwfv//tnHssVQ6i6MpLvDNaRmbmfbA8M1wfv//tnHwzdOhwaRaFCL2VDqLoykuIvZwfv//tnEi9v//hJWVZ+ni06HBpFoU6eJwfv//tnHp4gAA/38AAP9/AAD/fwAA/38AAP9/V3NPGVdzTxlXc08ZsWYIIrFmCCKxZggialZm5GpWZuRqVmbksYH6+rGB+vqxgfr64X/aAOF/2gDhf9oArJR+GayUfhmslH4Zn7lW2J+5VtifuVbYRo2a3kaNmt5GjZreOYJe6jmCXuo5gl7q0JNFAtCTRQLQk0UCRMt5NETLeTREy3k08NXkovDV5KLw1eSixpnow8aZ6MPGmejDcYUn0HGFJ9BxhSfQn7Z3DZ+2dw2ftncN")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_prv03")
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_8qrpg"]
+data = PackedVector3Array(-0.0861, -0.0073, -0.265, 0.2254, -0.0073, 0.1638, 0.2254, -0.0073, -0.1638, 0.2254, -0.0073, 0.1638, -0.2787, -0.0073, 0, -0.0186, -0.0073, 0.3549, -0.2787, -0.0073, 0, 0.2254, -0.0073, 0.1638, -0.0861, -0.0073, -0.265, 0.2254, -0.0073, 0.1638, 0.2802, 0.2117, -0.0142, 0.2254, -0.0073, -0.1638, -0.0186, -0.0073, 0.3549, 0.0861, 0.2714, 0.3392, 0.2254, -0.0073, 0.1638, -0.2787, -0.0073, 0, -0.2232, 0.2177, 0.2022, -0.0186, -0.0073, 0.3549, -0.0861, -0.0073, -0.265, -0.1513, 0.2323, -0.1532, -0.2787, -0.0073, 0, 0.2254, -0.0073, -0.1638, 0.0746, 0.234, -0.2157, -0.0861, -0.0073, -0.265, 0.2254, -0.0073, 0.1638, 0.0861, 0.2714, 0.3392, 0.2802, 0.2117, -0.0142, -0.0186, -0.0073, 0.3549, -0.2232, 0.2177, 0.2022, 0.0861, 0.2714, 0.3392, -0.2787, -0.0073, 0, -0.1513, 0.2323, -0.1532, -0.2232, 0.2177, 0.2022, -0.0861, -0.0073, -0.265, 0.0746, 0.234, -0.2157, -0.1513, 0.2323, -0.1532, 0.2254, -0.0073, -0.1638, 0.2802, 0.2117, -0.0142, 0.0746, 0.234, -0.2157, 0.0861, 0.2714, 0.3392, -0.0026, 0.3677, 0.0103, 0.2802, 0.2117, -0.0142, -0.2232, 0.2177, 0.2022, -0.0026, 0.3677, 0.0103, 0.0861, 0.2714, 0.3392, -0.1513, 0.2323, -0.1532, -0.0026, 0.3677, 0.0103, -0.2232, 0.2177, 0.2022, 0.0746, 0.234, -0.2157, -0.0026, 0.3677, 0.0103, -0.1513, 0.2323, -0.1532, 0.2802, 0.2117, -0.0142, -0.0026, 0.3677, 0.0103, 0.0746, 0.234, -0.2157)
+
+[node name="Small Rock" type="Node3D"]
+
+[node name="Small_Rock_Icosphere" type="MeshInstance3D" parent="."]
+mesh = SubResource("ArrayMesh_po7u6")
+skeleton = NodePath("")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Small_Rock_Icosphere"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Small_Rock_Icosphere/StaticBody3D"]
+shape = SubResource("ConcavePolygonShape3D_8qrpg")
